@@ -1,3 +1,5 @@
+<img src="cortex_logo.png" alt="Logo" width="200" />
+
 # Corteχ
 Corteχ (Core-tech) is designed to streamline patient selection for clinical trials by processing complex clinical trial criteria and matching patients based on their data. This application leverages natural language processing and a rules engine to assess patient suitability, providing scores and exclusion reasons based on specified inclusion and exclusion criteria.
 
