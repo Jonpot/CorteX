@@ -1,5 +1,7 @@
 # Corteχ
-Corteχ (<<Core-tech>>) is designed to streamline patient selection for clinical trials by processing complex clinical trial criteria and matching patients based on their data. This application leverages natural language processing and a rules engine to assess patient suitability, providing scores and exclusion reasons based on specified inclusion and exclusion criteria.
+Corteχ (Core-tech) is designed to streamline patient selection for clinical trials by processing complex clinical trial criteria and matching patients based on their data. This application leverages natural language processing and a rules engine to assess patient suitability, providing scores and exclusion reasons based on specified inclusion and exclusion criteria.
+
+Corteχ was designed in 24 hours for the Nucleate Pittburgh 2024 Biohackathon.
 
 ## Features
 - **Natural Language Rule Parsing:** Input clinical trial criteria in natural language, and the app translates it into structured rules that the engine can understand.
