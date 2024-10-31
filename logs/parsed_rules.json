@@ -1,0 +1,71 @@
+{
+    "response": "rules",
+    "inclusion_criterium": [
+        {
+            "rule": {
+                "type": "age",
+                "min": 18,
+                "max": 70
+            },
+            "weight": 1.0
+        },
+        {
+            "rule": {
+                "type": "preexisting_conditions",
+                "icd9_codes": [
+                    "427.31"
+                ]
+            },
+            "weight": 1.0
+        }
+    ],
+    "exclusion_criterium": [
+        {
+            "rule": {
+                "type": "preexisting_conditions",
+                "icd9_codes": [
+                    "433",
+                    "434",
+                    "435",
+                    "436",
+                    "437",
+                    "438"
+                ]
+            }
+        },
+        {
+            "rule": {
+                "type": "preexisting_conditions",
+                "icd9_codes": [
+                    "415.1",
+                    "453"
+                ]
+            }
+        },
+        {
+            "rule": {
+                "type": "preexisting_conditions",
+                "icd9_codes": [
+                    "491.2",
+                    "492",
+                    "496"
+                ]
+            }
+        },
+        {
+            "rule": {
+                "type": "medications",
+                "medications": [
+                    "heparin",
+                    "warfarin"
+                ]
+            }
+        },
+        {
+            "rule": {
+                "type": "other",
+                "description": "Several exclusion criteria cannot be captured with current symbols: structural heart disease, prior ablations, pregnancy/lactation, left atrial thrombus, contrast media allergy, thyroid disease, general health concerns"
+            }
+        }
+    ]
+}
